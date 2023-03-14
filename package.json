@@ -1,8 +1,9 @@
 {
-  "name": "@marcoguzman/hrnet-modal",
-  "version": "1.0.0",
+  "name": "hrnet-modal-marco-guzman",
+  "version": "1.1.0",
   "private": false,
   "author": "Marco Guzman",
+  "description": "Modal component for React",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

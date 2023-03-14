@@ -5,14 +5,14 @@ The `Marcoguzman-modal` component is a React component that displays a modal win
 To use the `HRNet-modal` component in your React application, you can install it from npm by running the following command:
 
 ```` bash
-npm install @hrnet/modal
+npm i hrnet-modal-marco-guzman
 ````
 ## Usage
 To use the `HRNet-modal` component, import it into your React component and render it as follows:
 
 ````jsx
 import React, { useState } from 'react';
-import Modal from '@marcoguzman/hrnet-modal';
+import Modal from 'hrnet-modal-marco-guzman';
 
 function App() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -35,7 +35,7 @@ Here is an example of using the `HRNet-modal` component in a React application:
 
 ````jsx
 import React, { useState } from 'react';
-import Modal from '@marcoguzman/hrnet-modal';
+import Modal from 'hrnet-modal-marco-guzman';
 
 function App() {
     const [isModalOpen, setIsModalOpen] = useState(false);
