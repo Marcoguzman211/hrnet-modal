@@ -1,5 +1,5 @@
 # HRNet-modal Component
-The `Marcoguzman-modal` component is a React component that displays a modal window with an "OK" button. It can be used to display a message or prompt to the user when he adds a new employee.
+The `HRNet-modal`  component is a React component that displays a modal window with a button. It can be used to display a message or prompt to the user when he adds a new employee.
 
 ## Installation
 To use the `HRNet-modal` component in your React application, you can install it from npm by running the following command:
@@ -52,11 +52,16 @@ function App() {
 
 ## Props
 
-| Nom           | Type     | Requis | Description                                  |
-|---------------|----------|--------|----------------------------------------------|
-| `onClose`     | fonction | Oui    | Une fonction à appeler lorsque l'utilisateur clique sur le bouton "OK". |
-| `employeeName` | chaîne de caractères| Oui    | Le nom de l'employé créé.                      |
-
+| Nom            | Type     | Requis | Description                                                  |
+|----------------|----------|--------|--------------------------------------------------------------|
+| `onClose`      | fonction | Oui    | Function called when the button is clicked                  |
+| `employeeName` | chaîne de caractères| Oui    | The name of the employee created                             |
+| `headerText`   | chaîne de caractères| Non    | Title of the Modal                                           |
+| `bodyText`     | chaîne de caractères| Non    | Text before employee name                                    |
+| `buttonText`   | chaîne de caractères| Non    | Text of button that calls a function                         |
+| `buttonClass`  | chaîne de caractères| Non    | Custom css class for the button.                             |
+| `sizeClass`    | chaîne de caractères| Non    | Custom css class for the size of the Modal.                  |
+| `bgColorClass` | chaîne de caractères| Non    | Custom css class for the background color, behind the Modal. |
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
